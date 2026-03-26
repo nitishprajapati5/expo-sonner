@@ -1,6 +1,6 @@
 {
   "name": "expo-sonner",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Expo Sonner",
   "main": "build/index.js",
   "types": "build/index.d.ts",
