@@ -196,11 +196,12 @@ npm install
 npm run web
 ```
 
-## API Documentation
 
-- [Latest stable release](https://docs.expo.dev/versions/latest/sdk/sonner/)
-- [Main branch (unversioned)](https://docs.expo.dev/versions/unversioned/sdk/sonner/)
+## Reporting Issues
 
-## Contributing
+Found a bug or have a feature request? [Open an issue](https://github.com/nitishprajapati5/expo-sonnner/issues) and include:
 
-Contributions are very welcome! Please refer to the guidelines in the [contributing guide](https://github.com/expo/expo#contributing).
+- A clear title and description
+- Steps to reproduce (for bugs)
+- Expected vs actual behavior
+- Your environment: Expo SDK version, React Native version, platform (iOS/Android/Web)
