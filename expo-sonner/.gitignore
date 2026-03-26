@@ -29,3 +29,9 @@ yarn-error.*
 .env.development.local
 .env.test.local
 .env.production.local
+
+# Packages for code editors
+.vscode/
+.idea/
+android/
+ios/

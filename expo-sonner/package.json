@@ -42,6 +42,9 @@
     "react-native-safe-area-context": "*"
   },
   "dependencies": {
-    "react-native-safe-area-context": "*"
+    "react-native-safe-area-context": "*",
+    "expo": "~55.0.7",
+    "react": "19.2.0",
+    "react-native": "0.83.2"
   }
 }
