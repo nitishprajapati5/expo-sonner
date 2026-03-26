@@ -195,12 +195,3 @@ cd example
 npm install
 npm run web
 ```
-
-## API Documentation
-
-- [Latest stable release](https://docs.expo.dev/versions/latest/sdk/sonner/)
-- [Main branch (unversioned)](https://docs.expo.dev/versions/unversioned/sdk/sonner/)
-
-## Contributing
-
-Contributions are very welcome! Please refer to the guidelines in the [contributing guide](https://github.com/expo/expo#contributing).
