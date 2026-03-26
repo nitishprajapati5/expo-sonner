@@ -195,3 +195,12 @@ cd example
 npm install
 npm run web
 ```
+
+## Reporting Issues
+
+Found a bug or have a feature request? [Open an issue](https://github.com/nitishprajapati5/expo-sonnner/issues) and include:
+
+- A clear title and description
+- Steps to reproduce (for bugs)
+- Expected vs actual behavior
+- Your environment: Expo SDK version, React Native version, platform (iOS/Android/Web)
