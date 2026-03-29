@@ -18,7 +18,7 @@ export interface ToastT {
   type: ToastType;
   title: string;
   description?: string;
-  duration?: number; // ms — use Infinity to persist until manually dismissed
+  duration?: number;
   action?: ToastAction;
   icon?: React.ReactNode;
   onDismiss?: (toast: ToastT) => void;
