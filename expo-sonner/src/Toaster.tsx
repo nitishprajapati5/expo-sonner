@@ -33,16 +33,14 @@ export const Toaster: React.FC<ToasterProps> = ({
   const visibleSlice = toasts.slice(0, visibleToasts);
 
   const safeOffset = offset + (isTop ? insets.top : insets.bottom);
-  const TOAST_HEIGHT = 64; // estimated per toast
+  const TOAST_HEIGHT = 64; 
   const COLLAPSED_STACK_HEIGHT = TOAST_HEIGHT + (visibleSlice.length - 1) * 14;
   const EXPANDED_STACK_HEIGHT = visibleSlice.length * (TOAST_HEIGHT + 8);
   const stackHeight = expanded ? EXPANDED_STACK_HEIGHT : COLLAPSED_STACK_HEIGHT;
 
-  // Responsive width: use full width on small screens, cap on large screens
   const horizontalPadding = width < 380 ? 12 : 16;
   const toastWidth = Math.min(width - horizontalPadding * 2, 420);
 
-  // Horizontal alignment based on position
   const isRight = position.endsWith("right");
   const isLeft = position.endsWith("left");
   const hAlign = isRight
