@@ -75,5 +75,7 @@ export const makeStyles = (s: (n: number) => number) =>
       fontSize: s(12),
       color: "#9ca3af",
       fontWeight: "600",
+
+      
     },
 });
