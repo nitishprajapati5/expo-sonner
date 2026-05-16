@@ -81,7 +81,6 @@ toast.dismiss = (id?: string) => {
     store.dismissAll();
   }
 };
-
 toast.custom = (title: string, options?: ExternalToast) =>
   createToast("default", title, options);
 
