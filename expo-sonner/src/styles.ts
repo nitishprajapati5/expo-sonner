@@ -76,4 +76,4 @@ export const makeStyles = (s: (n: number) => number) =>
       color: "#9ca3af",
       fontWeight: "600",
     },
-  });
+});
